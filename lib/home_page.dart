@@ -410,14 +410,10 @@ class _HomePageState extends State<HomePage>
                                     left: 100,
                                     top: 80,
                                     // bottom: 10,
-                                    child: Column(
-                                      children: [
-                                        Container(
-                                          height: 500,
-                                          width: 1,
-                                          color: Colors.white,
-                                        ),
-                                      ],
+                                    child: Container(
+                                      height: 500,
+                                      width: 1,
+                                      color: Colors.white,
                                     ),
                                   ),
 
